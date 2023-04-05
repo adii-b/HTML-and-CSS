@@ -1,0 +1,58 @@
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.nav > li {
+  color: darkgray;
+  font-size: 18px;
+}
+
+.logo1 {
+  padding-right: 12rem;
+}
+
+.hosting {
+  padding-left: 7rem;
+}
+
+.login {
+  background-color: rgb(2, 73, 251);
+  border: none;
+  color: white;
+  padding: 7px 20px;
+  border-radius: 15px;
+  font-size: 18px;
+  margin-left: 20rem;
+  margin-right: 2rem;
+}
+
+.para1 {
+  min-height: 200px;
+  padding-top: 50px;
+  color: aliceblue;
+  padding-left: 62px;
+  font-size: 56px;
+}
+
+.para2 {
+  color: darkgray;
+  font-size: 21px;
+  padding-left: 62px;
+}
+
+.container1 {
+  display: flex;
+}
