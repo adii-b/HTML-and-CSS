@@ -44,15 +44,40 @@ body {
   padding-top: 50px;
   color: aliceblue;
   padding-left: 62px;
-  font-size: 56px;
+  font-size: 75px;
+  width: 70%;
 }
 
 .para2 {
   color: darkgray;
-  font-size: 21px;
+  font-size: 27px;
   padding-left: 62px;
+  width: 70%;
+  padding-bottom: 8rem;
 }
 
 .container1 {
+  min-height: 30vh;
   display: flex;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.img1 {
+  /* width: 93%; */
+  padding-top: 5rem;
+  padding-right: 7rem;
+  padding-bottom: 5rem;
+}
+
+.container2 {
+  background-color: rgb(48, 47, 47);
+  min-height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container2:nth-child(n) img {
+  width: 120%;
 }
