@@ -201,11 +201,28 @@ button:nth-child(1) {
 
 .container5 {
   min-height: 100px;
+  padding-top: 4rem;
 }
 
 /* From here */
 
 .subcontainer-1 div:nth-child(1) {
   background-color: rgb(2, 73, 251);
+  display: flex;
+}
+
+.subcontainer-1 div:nth-child(2) {
+  display: flex;
+}
+
+.subcontainer-1 div:nth-child(3) {
+  display: flex;
+}
+
+.subcontainer-1 div:nth-child(4) {
+  display: flex;
+}
+
+.subcontainer-1 div:nth-child(5) {
   display: flex;
 }
