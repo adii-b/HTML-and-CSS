@@ -193,6 +193,7 @@ button:nth-child(1) {
 }
 
 .business {
+  text-align: center;
   padding-left: 62px;
   padding-top: 100px;
   font-size: 65px;
@@ -202,7 +203,9 @@ button:nth-child(1) {
 .container5 {
   min-height: 50px;
   padding-top: 4rem;
+  padding-left: 5rem;
   display: flex;
+  justify-content: center;
   gap: 3rem;
 }
 
@@ -255,7 +258,7 @@ button:nth-child(1) {
 .subcontainer-2 {
   background-color: black;
   color: white;
-  border-radius: 10px;
+  border-radius: 38px;
   padding: 10px 15px;
   display: flex;
   flex-direction: column;
@@ -301,4 +304,8 @@ button:nth-child(1) {
   height: 13px;
   border-radius: 50%;
   background-color: white;
+}
+
+.container6 {
+  background-color: black;
 }
