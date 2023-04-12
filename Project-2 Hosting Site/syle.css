@@ -85,7 +85,7 @@ nav {
   left: 4rem;
 }
 
-button:nth-child(1) {
+.container1 button:nth-child(1) {
   background-color: rgb(2, 73, 251);
   color: white;
   border: none;
@@ -204,12 +204,12 @@ button:nth-child(1) {
   min-height: 50px;
   padding-top: 4rem;
   padding-left: 5rem;
+  padding-bottom: 4rem;
   display: flex;
   justify-content: center;
   gap: 3rem;
 }
 
-/* From here */
 .subcontainer-1 {
   display: flex;
   flex-direction: column;
@@ -308,4 +308,25 @@ button:nth-child(1) {
 
 .container6 {
   background-color: black;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.services p:nth-child(1),
+.services p:nth-child(3) {
+  padding-top: 9rem;
+}
+
+.services p:nth-child(2) {
+  color: white;
+  text-align: center;
+  font-size: 65px;
+  padding-bottom: 3rem;
 }
