@@ -330,3 +330,22 @@ nav {
   font-size: 65px;
   padding-bottom: 3rem;
 }
+
+.subcontainerr-1 {
+  display: flex;
+}
+
+.regular {
+  background-color: white;
+  color: black;
+}
+
+.standard {
+  background-color: rgb(2, 73, 251);
+  color: white;
+}
+
+.premium {
+  background-color: #fff;
+  color: black;
+}
