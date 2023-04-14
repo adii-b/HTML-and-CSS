@@ -331,13 +331,42 @@ nav {
   padding-bottom: 3rem;
 }
 
+/* From here */
+
 .subcontainerr-1 {
+  padding-top: 4rem;
   display: flex;
 }
 
 .regular {
   background-color: white;
   color: black;
+}
+
+.in-regular {
+  display: flex;
+  flex-direction: column;
+  /* gap: 1rem; */
+}
+
+.in-regular > div:nth-child(1) {
+  display: flex;
+}
+
+.in-regular > div:nth-child(2) {
+  display: flex;
+}
+
+.in-regular > div:nth-child(3) {
+  display: flex;
+}
+
+.in-regular > div:nth-child(4) {
+  display: flex;
+}
+
+.in-regular > div:nth-child(5) {
+  display: flex;
 }
 
 .standard {
