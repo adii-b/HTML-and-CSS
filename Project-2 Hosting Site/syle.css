@@ -331,14 +331,13 @@ nav {
   padding-bottom: 3rem;
 }
 
-/* From here */
-
 .subcontainerr-1 {
   font-size: 20px;
   padding-top: 4rem;
   display: flex;
   justify-content: center;
   gap: 2.5rem;
+  padding-bottom: 6rem;
 }
 
 .regular {
@@ -534,4 +533,89 @@ nav {
   border-radius: 40px;
   margin-top: 35px;
   padding: 10px 100px;
+}
+
+.container7 {
+  padding-top: 7rem;
+}
+
+.in-container7-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20rem;
+}
+
+.in-container7-1 > p:nth-child(1) {
+  font-size: 50px;
+  font-weight: 600;
+  width: 30%;
+  /* padding-left: 4rem; */
+}
+
+.in-container7-1 > p:nth-child(2) {
+  font-size: 24px;
+  color: darkgray;
+  width: 35%;
+}
+
+.in-container7-2 {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  padding-left: 7.5rem;
+  padding-top: 5rem;
+}
+
+.in-container7-2 > div:nth-child(1) {
+  background-color: black;
+  color: white;
+  border-radius: 28px;
+  width: 41%;
+  padding: 2rem 1.5rem;
+}
+
+.customer-name {
+  font-size: large;
+  font-weight: 600;
+  padding-top: 2rem;
+}
+
+.designation {
+  padding-top: 0.5rem;
+}
+
+.in-container7-2 > div:nth-child(1) p {
+  font-size: x-large;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.in-container7-2 > div:nth-child(2) {
+  border: 2px solid darkgray;
+  border-radius: 28px;
+  width: 41%;
+  padding: 2rem 1.5rem;
+}
+
+.in-container7-2 > div:nth-child(2) p {
+  font-size: x-large;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.in-container7-2 > div:nth-child(3) {
+  position: absolute;
+  left: 37.8cm;
+  background-color: black;
+  color: white;
+  border-radius: 28px;
+  width: 41%;
+  padding: 2rem 1.5rem;
+}
+
+.in-container7-2 > div:nth-child(3) p {
+  font-size: x-large;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
