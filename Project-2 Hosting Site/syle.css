@@ -619,3 +619,18 @@ nav {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+
+.scroll {
+  background-color: lavender;
+  border-radius: 20px;
+  height: 8px;
+  margin-left: 3.2cm;
+  margin-top: 1.5cm;
+}
+
+.blue-scroll {
+  background-color: rgb(2, 73, 251);
+  width: 80px;
+  height: 8px;
+  border-radius: 20px;
+}
