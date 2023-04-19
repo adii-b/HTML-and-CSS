@@ -537,6 +537,7 @@ nav {
 
 .container7 {
   padding-top: 7rem;
+  padding-bottom: 5rem;
 }
 
 .in-container7-1 {
@@ -633,4 +634,39 @@ nav {
   width: 80px;
   height: 8px;
   border-radius: 20px;
+}
+
+.container8 {
+  background-color: black;
+  padding-top: 4rem;
+}
+
+.container8 > p:nth-child(1) {
+  color: #fff;
+  font-size: 50px;
+  width: 60%;
+  margin-left: 22rem;
+}
+
+.login-form {
+  background-color: rgb(47, 46, 46);
+  display: flex;
+  gap: 2rem;
+}
+
+.login-form input:nth-child(1),
+.login-form input:nth-child(2),
+.login-form input:nth-child(3) {
+  border: none;
+  background-color: #3c3b3b;
+}
+
+.login-form button {
+  background-color: rgb(2, 73, 251);
+  color: white;
+  border: none;
+}
+
+::-webkit-input-placeholder {
+  color: rgb(141, 137, 137);
 }
