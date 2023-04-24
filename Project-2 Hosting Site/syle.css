@@ -6,7 +6,7 @@
   overflow-x: hidden;
 }
 
-nav {
+.nav-bar {
   background-color: black;
   padding-top: 30px;
 }
@@ -639,6 +639,7 @@ nav {
 .container8 {
   background-color: black;
   padding-top: 4rem;
+  padding-bottom: 5rem;
 }
 
 .container8 > p:nth-child(1) {
@@ -685,4 +686,37 @@ nav {
 .login-form ::-webkit-input-placeholder {
   color: rgb(141, 137, 137);
   font-size: large;
+}
+
+/* Footer */
+
+.footer {
+  background-color: black;
+  padding-bottom: 4rem;
+}
+
+footer {
+  color: #fff;
+  font-size: larger;
+  border-top: 1px solid darkgrey;
+  border-bottom: 1px solid darkgrey;
+  display: flex;
+  justify-content: space-around;
+  gap: 10rem;
+  margin: 0 7rem;
+  padding: 4rem 0;
+}
+
+.company,
+.Features,
+.help,
+.social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.logo-end {
+  padding-left: 7rem;
+  padding-top: 3rem;
 }
